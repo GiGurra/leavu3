@@ -1,7 +1,7 @@
 package se.gigurra.leavu3.datamodel
 
-import se.gigurra.heisenberg.MapData._
-import se.gigurra.heisenberg.Schema
+import com.github.gigurra.heisenberg.MapData._
+import com.github.gigurra.heisenberg.Schema
 
 case class Leavu3Instance(source: SourceData = Map.empty) extends SafeParsed[Leavu3Instance.type] {
   val id              = parse(schema.id)

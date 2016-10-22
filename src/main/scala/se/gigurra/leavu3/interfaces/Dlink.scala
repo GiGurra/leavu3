@@ -2,14 +2,14 @@ package se.gigurra.leavu3.interfaces
 
 import com.twitter.finagle.FailedFastException
 import com.twitter.util.Duration
-import se.gigurra.heisenberg.MapDataParser
+import com.github.gigurra.heisenberg.MapDataParser
 import se.gigurra.leavu3.app.Version
 import se.gigurra.leavu3.datamodel.{Configuration, DlinkConfiguration, DlinkData, Mark, Member, RawDlinkData}
 import se.gigurra.leavu3.interfaces.DcsRemote.Stored
 import se.gigurra.leavu3.util.{DefaultTimer, RestClient, Throttled}
-import se.gigurra.serviceutils.json.JSON
-import se.gigurra.serviceutils.twitter.logging.Logging
-import se.gigurra.serviceutils.twitter.service.ServiceException
+import com.github.gigurra.serviceutils.json.JSON
+import com.github.gigurra.serviceutils.twitter.logging.Logging
+import com.github.gigurra.serviceutils.twitter.service.ServiceException
 
 import scala.util.{Failure, Success, Try}
 

@@ -1,8 +1,8 @@
 package se.gigurra.leavu3.datamodel
 
 
-import se.gigurra.heisenberg.MapData._
-import se.gigurra.heisenberg.{Schema, Parsed}
+import com.github.gigurra.heisenberg.MapData._
+import com.github.gigurra.heisenberg.{Schema, Parsed}
 
 case class HsiIndicators(source: SourceData = Map.empty) extends SafeParsed[HsiIndicators.type] {
   val rmiRaw          = parse(schema.rmiRaw).toDegrees

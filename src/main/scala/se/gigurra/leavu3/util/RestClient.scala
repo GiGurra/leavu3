@@ -5,7 +5,7 @@ import java.net.InetAddress
 import com.twitter.finagle.Http
 import com.twitter.finagle.http._
 import com.twitter.util._
-import se.gigurra.serviceutils.twitter.service.ServiceException
+import com.github.gigurra.serviceutils.twitter.service.ServiceException
 
 /**
   * Created by kjolh on 3/10/2016.

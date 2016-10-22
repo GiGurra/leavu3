@@ -6,9 +6,9 @@ import com.twitter.util.{Duration, Future}
 import se.gigurra.leavu3.datamodel._
 import se.gigurra.leavu3.gfx.Drawable
 import se.gigurra.leavu3.util._
-import se.gigurra.serviceutils.json.JSON
-import se.gigurra.serviceutils.twitter.logging.Logging
-import se.gigurra.serviceutils.twitter.service.ServiceException
+import com.github.gigurra.serviceutils.json.JSON
+import com.github.gigurra.serviceutils.twitter.logging.Logging
+import com.github.gigurra.serviceutils.twitter.service.ServiceException
 
 import scala.collection.mutable
 

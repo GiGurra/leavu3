@@ -4,13 +4,13 @@ import java.util.UUID
 
 import com.twitter.finagle.FailedFastException
 import com.twitter.util.{Await, Duration, Future}
-import se.gigurra.heisenberg.MapData.SourceData
-import se.gigurra.heisenberg._
+import com.github.gigurra.heisenberg.MapData.SourceData
+import com.github.gigurra.heisenberg._
 import se.gigurra.leavu3.datamodel.DlinkData._
 import se.gigurra.leavu3.datamodel.{Configuration, DcsRemoteRemoteConfig, Leavu3Instance}
 import se.gigurra.leavu3.util.{DefaultTimer, Throttled, RestClient}
-import se.gigurra.serviceutils.json.JSON
-import se.gigurra.serviceutils.twitter.logging.Logging
+import com.github.gigurra.serviceutils.json.JSON
+import com.github.gigurra.serviceutils.twitter.logging.Logging
 
 import scala.language.implicitConversions
 import scala.util.control.NonFatal

@@ -1,11 +1,11 @@
 package se.gigurra.leavu3.datamodel
 
 import com.twitter.util.{Duration, Future, NonFatal}
-import se.gigurra.heisenberg.MapData._
-import se.gigurra.heisenberg.Schema
+import com.github.gigurra.heisenberg.MapData._
+import com.github.gigurra.heisenberg.Schema
 import se.gigurra.leavu3.interfaces.DcsRemote
-import se.gigurra.serviceutils.json.JSON
-import se.gigurra.serviceutils.twitter.logging.Logging
+import com.github.gigurra.serviceutils.json.JSON
+import com.github.gigurra.serviceutils.twitter.logging.Logging
 
 import scala.collection.concurrent
 import scala.language.implicitConversions

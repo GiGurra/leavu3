@@ -3,11 +3,11 @@ package se.gigurra.leavu3.datamodel
 import java.io.FileNotFoundException
 import javax.swing.JOptionPane
 
-import se.gigurra.heisenberg.MapData._
-import se.gigurra.heisenberg.{Parsed, Schema}
+import com.github.gigurra.heisenberg.MapData._
+import com.github.gigurra.heisenberg.{Parsed, Schema}
 import se.gigurra.leavu3.mfd.DefaultMfdKeyBindings
-import se.gigurra.serviceutils.json.JSON
-import se.gigurra.serviceutils.twitter.logging.Logging
+import com.github.gigurra.serviceutils.json.JSON
+import com.github.gigurra.serviceutils.twitter.logging.Logging
 
 import scala.util.{Failure, Success, Try}
 

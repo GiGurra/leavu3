@@ -1,6 +1,6 @@
 package se.gigurra.leavu3
 
-import se.gigurra.heisenberg.{MapDataProducer, MapDataParser}
+import com.github.gigurra.heisenberg.{MapDataProducer, MapDataParser}
 
 /**
   * Created by kjolh on 3/12/2016.

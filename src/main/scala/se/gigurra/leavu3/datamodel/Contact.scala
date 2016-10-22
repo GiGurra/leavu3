@@ -1,7 +1,7 @@
 package se.gigurra.leavu3.datamodel
 
-import se.gigurra.heisenberg.MapData._
-import se.gigurra.heisenberg.Schema
+import com.github.gigurra.heisenberg.MapData._
+import com.github.gigurra.heisenberg.Schema
 import se.gigurra.leavu3.interfaces.GameIn
 import se.gigurra.leavu3.util.{CurTime, Memorized}
 

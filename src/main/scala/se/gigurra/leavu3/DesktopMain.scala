@@ -9,8 +9,8 @@ import se.gigurra.leavu3.app.{App, Version}
 import se.gigurra.leavu3.datamodel.Configuration
 import se.gigurra.leavu3.interfaces._
 import se.gigurra.leavu3.windowstweaks.WindowTweaks
-import se.gigurra.serviceutils.json.JSON
-import se.gigurra.serviceutils.twitter.logging.{Capture, Logging}
+import com.github.gigurra.serviceutils.json.JSON
+import com.github.gigurra.serviceutils.twitter.logging.{Capture, Logging}
 
 import scala.util.{Failure, Success, Try}
 

@@ -1,7 +1,7 @@
 package se.gigurra.leavu3.datamodel
 
-import se.gigurra.heisenberg.MapData._
-import se.gigurra.heisenberg.{Schema, Parsed}
+import com.github.gigurra.heisenberg.MapData._
+import com.github.gigurra.heisenberg.{Schema, Parsed}
 
 case class StatusFlags(source: SourceData = Map.empty) extends SafeParsed[StatusFlags.type] {
   val aiOn        = parse(schema.aiOn)

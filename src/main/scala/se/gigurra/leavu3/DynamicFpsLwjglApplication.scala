@@ -5,7 +5,7 @@ import com.badlogic.gdx.backends.lwjgl.{LwjglApplication, LwjglApplicationConfig
 import com.twitter.util.{Duration, JavaTimer}
 import se.gigurra.leavu3.gfx.Drawable
 import se.gigurra.leavu3.util.DefaultTimer
-import se.gigurra.serviceutils.twitter.logging.Logging
+import com.github.gigurra.serviceutils.twitter.logging.Logging
 
 import scala.util.control.NonFatal
 

@@ -1,7 +1,7 @@
 package se.gigurra.leavu3.datamodel
 
-import se.gigurra.heisenberg.MapData._
-import se.gigurra.heisenberg.{Parsed, Schema}
+import com.github.gigurra.heisenberg.MapData._
+import com.github.gigurra.heisenberg.{Parsed, Schema}
 import se.gigurra.leavu3.lmath.UnitConversions
 
 case class RadarDisplayScale(source: SourceData = Map.empty)

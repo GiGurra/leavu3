@@ -8,8 +8,8 @@ import com.twitter.util.Duration
 import se.gigurra.leavu3.datamodel.{Configuration, Vec2}
 import se.gigurra.leavu3.gfx.Drawable
 import se.gigurra.leavu3.util.{DefaultTimer, Throttled}
-import se.gigurra.serviceutils.json.JSON
-import se.gigurra.serviceutils.twitter.logging.Logging
+import com.github.gigurra.serviceutils.json.JSON
+import com.github.gigurra.serviceutils.twitter.logging.Logging
 
 /**
   * Created by kjolh on 3/18/2016.

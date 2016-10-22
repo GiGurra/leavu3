@@ -1,7 +1,7 @@
 package se.gigurra.leavu3.datamodel
 
-import se.gigurra.heisenberg.MapData._
-import se.gigurra.heisenberg.{Parsed, Schema}
+import com.github.gigurra.heisenberg.MapData._
+import com.github.gigurra.heisenberg.{Parsed, Schema}
 
 import scala.language.implicitConversions
 

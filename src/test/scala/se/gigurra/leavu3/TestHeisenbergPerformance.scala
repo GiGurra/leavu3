@@ -2,7 +2,7 @@ package se.gigurra.leavu3
 
 import se.gigurra.leavu3.datamodel.GameDataWire
 import se.gigurra.leavu3.util.{CurTime, Resource2String}
-import se.gigurra.serviceutils.json.JSON
+import com.github.gigurra.serviceutils.json.JSON
 
 /**
   * Created by kjolh on 4/2/2016.

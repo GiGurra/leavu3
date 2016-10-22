@@ -3,7 +3,7 @@ package se.gigurra.leavu3.app
 import com.badlogic.gdx.{ApplicationAdapter, InputAdapter, InputProcessor}
 import se.gigurra.leavu3.datamodel.Configuration
 import se.gigurra.leavu3.interfaces._
-import se.gigurra.serviceutils.twitter.logging.Logging
+import com.github.gigurra.serviceutils.twitter.logging.Logging
 
 import scala.util.{Failure, Success, Try}
 import scala.language.implicitConversions

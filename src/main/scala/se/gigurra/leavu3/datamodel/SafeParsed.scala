@@ -1,7 +1,7 @@
 package se.gigurra.leavu3.datamodel
 
 import com.twitter.util.NonFatal
-import se.gigurra.heisenberg._
+import com.github.gigurra.heisenberg._
 
 /**
   * Because dcs sometimes sends nulls... :P

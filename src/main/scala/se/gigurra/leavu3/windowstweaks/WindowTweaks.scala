@@ -5,7 +5,7 @@ import com.sun.jna.platform.win32.{User32, WinDef}
 import com.sun.jna.platform.win32.WinDef.HWND
 import se.gigurra.leavu3.datamodel.Configuration
 import se.gigurra.leavu3.util.JavaReflectImplicits
-import se.gigurra.serviceutils.twitter.logging.Logging
+import com.github.gigurra.serviceutils.twitter.logging.Logging
 
 
 /**

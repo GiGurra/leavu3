@@ -5,7 +5,7 @@ import java.net.URI
 
 import com.twitter.util.{Duration, JavaTimer, Time}
 import se.gigurra.leavu3.util.Resource2String
-import se.gigurra.serviceutils.twitter.logging.Logging
+import com.github.gigurra.serviceutils.twitter.logging.Logging
 
 import scala.language.implicitConversions
 import scala.util.Try

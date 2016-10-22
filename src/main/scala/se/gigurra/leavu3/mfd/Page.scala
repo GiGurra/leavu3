@@ -7,7 +7,7 @@ import se.gigurra.leavu3.gfx.{WorldProjection, Projection, ScreenProjection}
 import se.gigurra.leavu3.interfaces.{GameIn, MouseClick}
 import se.gigurra.leavu3.lmath.NormalizeDegrees
 import se.gigurra.leavu3.util.CircleBuffer
-import se.gigurra.serviceutils.twitter.logging.Logging
+import com.github.gigurra.serviceutils.twitter.logging.Logging
 
 import scala.language.postfixOps
 
