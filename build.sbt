@@ -9,7 +9,7 @@ val leavu3 = Project(id = "leavu3", base = file("."))
     mainClass in assembly := Some("se.gigurra.leavu3.DesktopMain"),
 
     libraryDependencies ++= Seq(
-      "com.github.gigurra"    %%  "service-utils"         % "0.1.13-SNAPSHOT",
+      "com.github.gigurra"    %%  "service-utils"         % "0.1.14-SNAPSHOT",
       "com.github.gigurra"    %%  "glasciia-desktop"      % "0.2.2-SNAPSHOT",
       "net.java.dev.jna"      %   "jna-platform"          % "4.2.2",
       "net.java.dev.jna"      %   "jna"                   % "4.2.2"
